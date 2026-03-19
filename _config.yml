@@ -1,0 +1,18 @@
+title: SQL与MySQL课程
+description: SQL与MySQL数据库课程网站
+baseurl: "/sql-mysql-course"
+url: "https://yourusername.github.io"
+theme: minima
+header_pages:
+  - 课程内容/课程大纲.md
+  - 课程内容/SQL与MySQL课程讲义.md
+  - 课程内容/案例计划.md
+  - 课程内容/习题集.md
+encoding: "utf-8"
+markdown: kramdown
+permalink: pretty
+paginate: 10
+paginate_path: "/blog/page:num/"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
